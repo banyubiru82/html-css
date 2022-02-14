@@ -9,22 +9,25 @@ table tr {
 }
 table tr th {
   color: blue;
+  font-size: 16px;
 }
 
 button {
   background-color: blue;
   color: white;
   border: none;
+  font-size: 18px;
   border-radius: 10px;
 }
 button:hover {
   background-color: yellow;
   color: blue;
+  font-size: 18px;
 }
 .group {
   position: relative;
   margin-bottom: 45px;
-  margin-top: 100px;
+  margin-top: 10px;
 }
 input {
   font-size: 18px;
@@ -42,4 +45,16 @@ label {
   pointer-events: none;
   left: 5px;
   top: 10px;
+}
+p {
+  font-size: 16px;
+  color: yellowgreen;
+}
+h2 {
+  font-size: 20px;
+  color: #757575;
+}
+h2:hover {
+  font-size: 20px;
+  color: black;
 }
